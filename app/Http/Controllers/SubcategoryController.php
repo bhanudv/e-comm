@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SubcategoryController extends Controller
+class SubCategoryController extends Controller
 {
-    //
+    public function index() {
+        return view('subcategory.index');
+    }
 }
